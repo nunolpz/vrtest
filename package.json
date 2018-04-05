@@ -1,0 +1,32 @@
+{
+  "name": "cordova-plugin-vrtest",
+  "version": "0.0.1",
+  "description": "An Android Cordova to test vr",
+  "cordova": {
+    "id": "cordova-plugin-vrtest",
+    "platforms": [
+      "android"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nunolpz/vrtest.git"
+  },
+  "keywords": [
+    "vr",
+    "ecosystem:cordova",
+    "cordova-android"
+  ],
+  "engines": [
+    {
+      "name": "cordova",
+      "version": ">=3.0.0"
+    }
+  ],
+  "author": "Nuno Lopes <nuno@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nunolpz/vrtest/issues"
+  },
+  "homepage": "https://github.com/nunolpz/vrtest/"
+}
