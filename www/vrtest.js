@@ -4,6 +4,6 @@ function vrtest() {}
 
 vrtest.prototype.show = function(successCallback, errorCallback) {
   var options = {};
-  cordova.exec(successCallback, errorCallback, 'vrtest', 'show', [options]);
+  cordova.exec(successCallback, errorCallback, 'TreasureHuntActivity', 'initializeGvrView', [options]);
 }
 
