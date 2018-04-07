@@ -24,7 +24,13 @@
                 <param name="android-package" value=".com.nunolopes.cordova.plugin.vrtest"/>
             </feature>
         </config-file>
-
+        <framework custom="true" src="src/android/vrtest.gradle" type="gradleReference" />
         <source-file src="src/android/vrtest.java" target-dir="src/com/nunolopes/cordova/plugin" />
     </platform>
 </plugin>
+
+
+<platform name="android">
+  ...
+  
+</platform>
